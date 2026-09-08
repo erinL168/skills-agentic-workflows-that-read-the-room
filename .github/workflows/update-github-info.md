@@ -17,6 +17,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     draft: true
@@ -32,6 +33,7 @@ Use web-fetch to read:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
 Use the GitHub repository tools to read any repository guidance or reference files needed to understand the current content. Review `site/content/github-info.md`, then update that file with short, practical information that helps developers learn GitHub faster. Keep summaries concise and mention whether each update came from the GitHub Blog or GitHub Changelog.
 
